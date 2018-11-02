@@ -1,0 +1,2 @@
+# SamBlog
+write blog
