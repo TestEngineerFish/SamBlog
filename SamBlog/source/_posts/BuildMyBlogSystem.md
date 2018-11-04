@@ -1,6 +1,6 @@
 ---
 title: BuildMyBlogSystem
-tags: 随笔
+tags: [随笔, first]
 date: 2018-11-02 22:12:01
 ---
 
@@ -24,7 +24,6 @@ Hexo的部署，因为官方文档已经很详细了。所以这里简单整理�
 $ npm install -g hexo-cli
 ```
 如果没有则按照下面步骤，安装后再回来
-
 安装Node.js，如果安装了nvm包管理工具，可以直接安装，跳过以下安装步骤
 
 ```
