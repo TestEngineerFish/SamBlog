@@ -9,19 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Description-->
-
     
-
-    
-        <meta name="description" content="搭建个人Blog教程其实搭建个人的Blog，一方面是督促自己写Blog的习惯，也是希望自动动手丰衣足食。下面说一下完整搭建一套Blog需要的主要工具。
-Blog框架 - Hexo既然是要自己搭建Blog，那自然需要一个成熟的框架，找来找去，最后还是选择了Hexo个人使用下来有以下优点：
-
-支持Mar">
+        <meta name="description" content="搭建个人Blog教程其实搭建个人的Blog，显式成本：28元，隐式成本未知。一方面是督促自己写Blog的习惯，也是希望自动动手丰衣足食。下面给大家介绍一下，如何自己完整搭建一套Blog。
+1、Blog框架 - Hexo既然是要自己搭建Blog，那自然需要一个成熟的框架，找来找去，最后还是选择了Hex">
     
 
     <!--Author-->
     
-        <meta name="author" content="John Doe">
+        <meta name="author" content="Sam">
     
 
     <!--Open Graph Title-->
@@ -31,14 +26,9 @@ Blog框架 - Hexo既然是要自己搭建Blog，那自然需要一个成熟的�
 
     <!--Open Graph Description-->
     
-        <meta property="og:description" content="搭建个人Blog教程其实搭建个人的Blog，一方面是督促自己写Blog的习惯，也是希望自动动手丰衣足食。下面说一下完整搭建一套Blog需要的主要工具。
-Blog框架 - Hexo既然是要自己搭建Blog，那自然需要一个成熟的框架，找来找去，最后还是选择了Hexo个人使用下来有以下优点：
-
-支持Mar">
-    
 
     <!--Open Graph Site Name-->
-        <meta property="og:site_name" content="Hexo">
+    <meta property="og:site_name" content="Hexo">
 
     <!--Type page-->
     
@@ -47,174 +37,109 @@ Blog框架 - Hexo既然是要自己搭建Blog，那自然需要一个成熟的�
 
     <!--Page Cover-->
     
-    
-        <meta property="og:image" content="http://www.tingyusha.cnhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
-    
 
-        <meta name="twitter:card" content="summary_large_image">
-
-    
-
-    
-        <meta name="twitter:image" content="http://www.tingyusha.cnhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
+    <meta name="twitter:card" content="summary">
     
 
     <!-- Title -->
     
     <title>BuildMyBlogSystem - Hexo</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <!-- Tachyons Core CSS -->
+    <link rel="stylesheet" href="//unpkg.com/tachyons/css/tachyons.min.css">
 
     <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Gallery -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
 
     <!-- Google Analytics -->
     
 
-
-    <!-- favicon -->
-    
 
 </head>
 
 
 <body>
 
-    <!-- Menu -->
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Configurable Title</a>
+<!-- Main Content -->
+<!-- Banner -->
+<!-- Banner -->
+<div class="w-100 bg-1 ph5-ns ph3 text-light">
+    
+    <nav class="db dt-l w-100 mw8 center border-box pv3">
+        <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="Hexo">
+            <img src="http://phiky9lnw.bkt.clouddn.com/blog_logo.svg" class="dib h3" alt="Hexo">
+        </a>
+        <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" href="/" title="Home">
+                    Home
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" href="/archives" title="Archives">
+                    Archives
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" href="/tags" title="Tags">
+                    Tags
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" href="/categories" title="Categories">
+                    Categories
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" href="/about.html" title="About">
+                    About
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" href="/contact.html" title="Contact">
+                    Contact
+                </a>
+            
         </div>
+    </nav>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                
-                    <li>
-                        <a href="/">
-                            
-                                Home
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/archives">
-                            
-                                Archives
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags">
-                            
-                                Tags
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/categories">
-                            
-                                Categories
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
-                            
-                                <i class="fa fa-github fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-    <!-- Main Content -->
-    <!-- Page Header -->
-<!-- Set your background image for this header in your post front-matter: cover -->
-
-<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>BuildMyBlogSystem</h1>
-                    
-                    <span class="meta">
-                        <!-- Date and Author -->
-                        
-                        
-                            2018-11-02
-                        
-                    </span>
-                </div>
-            </div>
+    <!-- Title -->
+    <div class="w-100 mw8 center vh-40 dt">
+        <div class="dtc v-mid white">
+            <h1 class="f1-l f2-m tc tc-m tl-ns">BuildMyBlogSystem</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2018-11-02</p>
         </div>
     </div>
-</header>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
+    <!-- Icon -->
+    <div class="relative w-100 mw8 center white dn dn-m db-ns">
+        <i class="header-icon fa fa-file-text-o"></i>
+    </div>
+</div>
 
-            <!-- Tags and categories -->
-           
-                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+<!-- Content -->
+<div class="w-100 ph2 ph4-m ph5-l mv5 mv6-l">
+    <div class="content">
+        <div class="mw8 center">
+            <div class="cf">
+                <div class="fl w-100 w-70-l mw7 left fw3 lh-copy pr4-ns pr0-m post-content">
+                    <!-- Tags Vertical -->
                     
-                        
-
-
-<a href="/tags/随笔/">#随笔</a> <a href="/tags/first/">#first</a>
-
-
+                        <div class="tags-container-vertical">
+                            <div class="tags-sub-container">
+                                <a class="fw3 ph1 dib" href="/tags/随笔/">#随笔</a>
+                            </div>
+                        </div>
                     
-                </div>
-                <div class="col-lg-4 col-md-5 post-categories">
-                    
-                </div>
-            
 
-            <!-- Gallery -->
-            
-
-            <!-- Post Main Content -->
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h1 id="搭建个人Blog教程"><a href="#搭建个人Blog教程" class="headerlink" title="搭建个人Blog教程"></a>搭建个人Blog教程</h1><p>其实搭建个人的Blog，一方面是督促自己写Blog的习惯，也是希望自动动手丰衣足食。下面说一下完整搭建一套Blog需要的主要工具。</p>
-<h3 id="Blog框架-Hexo"><a href="#Blog框架-Hexo" class="headerlink" title="Blog框架 - Hexo"></a>Blog框架 - <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a></h3><p>既然是要自己搭建Blog，那自然需要一个成熟的框架，找来找去，最后还是选择了Hexo<br><img src="http://phiky9lnw.bkt.clouddn.com/hexo-io.png" alt="Hexo"><br>个人使用下来有以下优点：</p>
+                    <!-- Main Post Content -->
+                    <h1 id="搭建个人Blog教程"><a href="#搭建个人Blog教程" class="headerlink" title="搭建个人Blog教程"></a>搭建个人Blog教程</h1><p>其实搭建个人的Blog，显式成本：28元，隐式成本未知。一方面是督促自己写Blog的习惯，也是希望自动动手丰衣足食。下面给大家介绍一下，如何自己完整搭建一套Blog。</p>
+<h3 id="1、Blog框架-Hexo"><a href="#1、Blog框架-Hexo" class="headerlink" title="1、Blog框架 - Hexo"></a>1、Blog框架 - <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a></h3><p>既然是要自己搭建Blog，那自然需要一个成熟的框架，找来找去，最后还是选择了Hexo<br><img src="http://phiky9lnw.bkt.clouddn.com/hexo-io.png" alt="Hexo"><br>个人使用下来有以下优点：</p>
 <ul>
 <li>支持Markdown语法；</li>
 <li>部署方便；</li>
@@ -222,9 +147,8 @@ Blog框架 - Hexo既然是要自己搭建Blog，那自然需要一个成熟的�
 </ul>
 <p>尤其是支持Markdown是选择其的最主要原因，因为在你编辑的时候，再去选择什么格式、颜色、字体大小之类，可谓相当之烦。</p>
 <p>Hexo的部署，因为官方文档已经很详细了。所以这里简单整理一下。</p>
-<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>如果安装了Node.js，可直接用Node的包管理工具<a href="https://www.npmjs.com.cn/" target="_blank" rel="noopener">npm</a>则直接安装hexo-cli命令行工具即可，跳过以下安装步骤<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
-<p>如果没有则按照下面步骤，安装后再回来</p>
-<p>安装Node.js，如果安装了nvm包管理工具，可以直接安装，跳过以下安装步骤</p>
+<h4 id="1-1-安装"><a href="#1-1-安装" class="headerlink" title="1.1 安装"></a>1.1 安装</h4><p>如果安装了Node.js，可直接用Node的包管理工具<a href="https://www.npmjs.com.cn/" target="_blank" rel="noopener">npm</a>则直接安装hexo-cli命令行工具即可，跳过以下安装步骤<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
+<p>如果没有则按照下面步骤，安装后再回来<br>安装Node.js，如果安装了nvm包管理工具，可以直接安装，跳过以下安装步骤</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ nvm install stable</span><br><span class="line"># 如果想安装其他Node版本也可以：nvm ls-remote 先查看有哪些版本， nvm install [version] 安装需要的版本</span><br></pre></td></tr></table></figure>
 <p>如果没有安装，可以按照以下步骤安装</p>
 <ul>
@@ -245,73 +169,126 @@ Blog框架 - Hexo既然是要自己搭建Blog，那自然需要一个成熟的�
 <blockquote>
 <p>⚠️你在编译时可能会碰到问题，请先至App Store安装Xcode，一旦Xcode安装完成后，开启它并前往Preferences -&gt; Download -&gt; Command Line Tools -&gt; Install安装命令列工具</p>
 </blockquote>
-<h3 id="服务器-Amazon"><a href="#服务器-Amazon" class="headerlink" title="- 服务器 - Amazon"></a>- 服务器 - Amazon</h3><h3 id="域名-阿里云"><a href="#域名-阿里云" class="headerlink" title="- 域名 - 阿里云"></a>- 域名 - 阿里云</h3><h3 id="DNS-阿里云"><a href="#DNS-阿里云" class="headerlink" title="- DNS - 阿里云"></a>- DNS - 阿里云</h3><h3 id="图片存储-七牛"><a href="#图片存储-七牛" class="headerlink" title="- 图片存储 - 七牛"></a>- 图片存储 - 七牛</h3><h3 id="Git库"><a href="#Git库" class="headerlink" title="- Git库"></a>- Git库</h3>
+<h4 id="1-2-启动服务"><a href="#1-2-启动服务" class="headerlink" title="1.2 启动服务"></a>1.2 启动服务</h4><p>如果以上都安装没有问题的话，既可以使用上面安装的hexo-cli命令行工具，直接初始化一个blog目录<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init BlogProject</span><br></pre></td></tr></table></figure></p>
+<p>如果初始化完成应该会得到一下目录<br><img src="http://phiky9lnw.bkt.clouddn.com/hexoCatelogList.png" alt="list"><br>然后直接自动服务，开始的时候会有一个默认的文章hello-world.md<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></p>
+<p>根据提示直接打开url：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a><br><img src="http://phiky9lnw.bkt.clouddn.com/defaultBlog.png" alt="default"></p>
+<p>着重说下三个目录</p>
+<ul>
+<li>_config.yml<br>hexo的配置文件，包括后面的git和域名配置等都需要在这个文件配置，简单里的理解就是配置一些宏变量</li>
+<li>source<br>文章主目录，包括草稿文章和已发布的文章已经tags和categoies之类，以后编辑文章也是在这个目录，后面细说</li>
+<li>themes<br>blog的存放主题的目录，Hexo有着丰富的<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题库</a>，当然你时间充裕的话也可以自己定义一个主题<br>直接浏览<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题库</a>，下载自己喜欢的主推，存放到theme目录，然后到_config.yml文件中，修改默认主题<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">hexo-theme-anodyne</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="1-3-编辑Blog"><a href="#1-3-编辑Blog" class="headerlink" title="1.3 编辑Blog"></a>1.3 编辑Blog</h4><p>首先修改默认创建的Blog类型为草稿，进入_config.yml<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">default_layout:</span> <span class="string">draft</span></span><br></pre></td></tr></table></figure></p>
+<p>创建Blog文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new articleTitle</span><br></pre></td></tr></table></figure></p>
+<p>创建完成后，既在source目录中会创建一个草稿的_drafts/articleTitle.md，随后找一个你喜欢的编辑器就可以开始编辑文章啦，markdown格式哦，笔者喜欢SublimeText，直接编辑完后Control+S保存即可，刷新网页即会显示最新内容<br>其他详细的可以再去查<a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>看官方网站的</p>
+<h4 id="1-4-配置Hexo"><a href="#1-4-配置Hexo" class="headerlink" title="1.4 配置Hexo"></a>1.4 配置Hexo</h4><p>记得配置以下服务器之后回来修改 <strong>_config.yml</strong> 文件，可以直接将编辑好的文件，部署到服务器上<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">url: http://server-ip # 没有绑定域名时填写服务器的实际 IP 地址。</span><br></pre></td></tr></table></figure></p>
+<p>再划到 <strong>_config,yml</strong> 底部，修改deploy<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    repo: ubuntu@云服务器的IP地址:/var/repo/hexo_static</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure></p>
+<p>保存退出<br>安装Git<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<p>将编辑好的文章部署到服务器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure></p>
+<p>对了，如果没有配置ssh的话，会输入密码，这里建议配置ssh<br>配置很简单，直接获取本机的公钥<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure></p>
+<p>复制后放到服务器的 <strong>~/.ssh/authorized_keys</strong> 文件中即可<br>本地没有公钥，可以手动创建一个：<strong>ssh-keygen</strong></p>
+<h3 id="2、服务器-Amazon"><a href="#2、服务器-Amazon" class="headerlink" title="2、服务器 - Amazon"></a>2、服务器 - Amazon</h3><p>Blog可以编辑了，但是我们不能总是在本地开启服务吧，而且外网的用户也无法访问，所以我们需要一个服务器用来存放我们的内容和方便其他外网用户访问。<br>Amazon有个1年服务器的免费试用优惠，所以……，哈哈，我选择了它，没有其他理由。</p>
+<h4 id="2-1-翻墙"><a href="#2-1-翻墙" class="headerlink" title="2.1 翻墙"></a>2.1 翻墙</h4><p>毕竟不是国内的服务，总是要有个梯子，这个梯子在我大天朝还是敏感词，所以我在之后的其他文章在详细说如何自己免费搭建一个梯子</p>
+<h4 id="2-2-购买一个服务器"><a href="#2-2-购买一个服务器" class="headerlink" title="2.2 购买一个服务器"></a>2.2 购买一个服务器</h4><p>没有帐号的需要自己注册一个，然后有一个推荐试用的EC2的服务器，直接选择就好了（我选的ubuntu-18.04-amd64-server），就不细说了哈<br>进入EC2Dashboard主页 &gt; 进入该实例 &gt; 连接<br><img src="http://phiky9lnw.bkt.clouddn.com/sshAmazon.png" alt="ssh"><br>按照图上，直接链接该服务器</p>
+<h4 id="2-3-配置服务器"><a href="#2-3-配置服务器" class="headerlink" title="2.3 配置服务器"></a>2.3 配置服务器</h4><p>主要配置完成以下内容<br> 1、为本地的hexo-blog配置一个部署静态文件的Git仓库<br> 2、配置Nginx托管Blog文件目录<br> 3、配置远端仓库自动更新到Blog文件目录的Hook</p>
+<p>在配置之前，我们需要在服务中安装我们需要两个主要工具 Nginx和Git<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install git nginx -y</span><br><span class="line">sudo apt-get install git</span><br></pre></td></tr></table></figure></p>
+<p>1.1 部署静态文件的Git库<br>在 <strong>/var/repo</strong> 创建一个 <strong>hexo_static</strong> 裸仓库(bare repo)<br>如果没有该目录，则创建一个并修改权限，使ubuntu账户拥有之后文件的权限</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir /var/repo/</span><br><span class="line">sudo chown -R $USER:$USER /var/repo/</span><br><span class="line">sudo chmod -R 755 /var/repo/</span><br></pre></td></tr></table></figure>
+<p>然后执行下面的命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /var/repo/</span><br><span class="line">git init --bare hexo_static.git</span><br></pre></td></tr></table></figure>
+<p>2.1 配置Nginx托管Blog文件目录<br>创建 <strong>/var/www/hexo</strong> 用户Nginx托管<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir -p /var/www/hexo</span><br></pre></td></tr></table></figure></p>
+<p>一样的，我们需要修改目录权限<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R $USER:$USER /var/www/hexo</span><br><span class="line">sudo chmod -R 755 /var/www/hexo</span><br></pre></td></tr></table></figure></p>
+<p>修改Nginx的设置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/nginx/sites-available/default</span><br></pre></td></tr></table></figure></p>
+<p>将默认的root目录指向  <strong> /var/www/hexo </strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line">    listen 80 default_server;</span><br><span class="line">    listen [::]:80 default_server ipv6only=on;</span><br><span class="line"></span><br><span class="line">    root /var/www/hexo; # 需要修改的部分</span><br><span class="line">    index index.html index.htm;</span><br><span class="line">...</span><br></pre></td></tr></table></figure></p>
+<p>下面配置完域名以后，可以再回到这里，配置Nginx的域名为你购买的域名<br>重启Nginx服务，使修改生效<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service nginx restart</span><br></pre></td></tr></table></figure></p>
+<h4 id="2-4-配置Git-钩子"><a href="#2-4-配置Git-钩子" class="headerlink" title="2.4 配置Git 钩子"></a>2.4 配置Git 钩子</h4><p>在服务器的裸仓库 <strong>hexo-static</strong> 创建一个钩子，在满足特定条件是，将静态的HTML传送到Web服务器 <strong>/var/www/hexo</strong> 目录下</p>
+<p>在自动生成的 hooks 目录下创建一个新的钩子文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /var/repo/hexo_static.git/hooks/post-receive</span><br></pre></td></tr></table></figure></p>
+<p>在该文件中添加两行代码，指定 Git 的工作树（源代码）和 Git 目录（配置文件等）。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line"></span><br><span class="line">git --work-tree=/var/www/hexo --git-dir=/var/repo/hexo_static.git checkout -f</span><br></pre></td></tr></table></figure></p>
+<p>保存并退出，修改文件权限为可执行文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /var/repo/hexo_static.git/hooks/post-receive</span><br></pre></td></tr></table></figure></p>
+<p>服务器暂时配置完成，尝试的，可以回到编辑Blog上面，配置完后可以直接访问IP地址即可看到你编辑的文章了</p>
+<h3 id="域名-阿里云"><a href="#域名-阿里云" class="headerlink" title="域名 - 阿里云"></a>域名 - <a href="https://www.aliyun.com" target="_blank" rel="noopener">阿里云</a></h3><p>我们不能总是用IP来访问吧，所以我们需要域名服务，我选择在阿里云注册，其提供免费NDS服务，选了一个自己名字的拼音域名，价格一年二十几元。<br>登录阿里云管理控制台，选择<a href="https://wanwang.aliyun.com/domain/?spm=5176.100251.111252.16.6d4a4f15SMrj32" target="_blank" rel="noopener">域名注册</a><br><img src="http://phiky9lnw.bkt.clouddn.com/ali_domain.png" alt="ali_domain"><br>搜索一个我们需要的域名，看是否存在，比如：tingyusha<br><img src="http://phiky9lnw.bkt.clouddn.com/tingyusha_domain.png" alt="tingyusha_domain"><br>列表中包含了各种以 <strong>tingyusha</strong> 开头的域名，自己选择一个，在国内使用，区别已经没有那么细了<br>加入购物车，结算即可</p>
+<h3 id="DNS-阿里云"><a href="#DNS-阿里云" class="headerlink" title="DNS - 阿里云"></a>DNS - 阿里云</h3><p>有了域名之后，我们就需要配置域名的NDS服务，就是将我们的域名和我们之前买的服务器地址进行绑定。<br>进入阿里云域名控制台，在我们刚购买的域名栏右侧，点击【解析】<br><img src="http://phiky9lnw.bkt.clouddn.com/domin_view.png" alt="domain_view"><br>选择【新手引导】或者【添加记录】，绑定我们的服务器的IP到该域名下，可添加多条<br><img src="http://phiky9lnw.bkt.clouddn.com/edit_NDS.png" alt="edit_dns"><br>配置完成后，我们即可将我们购买的域名配置到Hexo配置文件中的url字段上了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">url: http://www.tingyusha.cn/</span><br></pre></td></tr></table></figure></p>
+<p>这时候访问以上IP就等同于访问了我们购买的那个Amazon服务器</p>
+<h3 id="图片存储-七牛"><a href="#图片存储-七牛" class="headerlink" title="图片存储 - 七牛"></a>图片存储 - <a href="https://portal.qiniu.com/" target="_blank" rel="noopener">七牛</a></h3><p>编辑Blog经常要用到图片，存储图片是个麻烦事，我们可以在刚才购买的服务器上搭建一个图片存储服务器，但是如果服务器被封，或者其他原因挂了，我们就拿不回来了，所以分开放个人觉得比较保险，所以我选择了七牛云，因为工作上也用的这个平台做图片存储，一直用下来，感觉还是不错的，但是在配置域名的时候遇到个坑！很大的坑！因为我们服务器是国外的，不用备案，但是我们域名是国内的，需要备案，不然七牛不允许你绑定该域名到镜像存储空间，阿里方的域名备案又需要绑定他们自己的服务器，这就麻烦了。所以暂时用的是七牛的测试域名，一个月过期，过期后，可以在文件编辑器中，正则替换图片ur的域名，当然是有解决办法的，比如先绑定一个国内的服务器，过审之后再绑定到国外的域名。<br>七牛使用还是满简单的，注册帐号后，会有一个免费的账户，个人感觉够用了<br><img src="http://phiky9lnw.bkt.clouddn.com/qiniu.png" alt="qiniu"><br>创建一个存储空间，用于存储图片<br><img src="http://phiky9lnw.bkt.clouddn.com/qiniu_data.png" alt="qiniu_data"><br>刚创建的存储空间默认有一个测试域名，就是我上面说的，能绑定一个有效的正式域名最好，方便后面访问<br><img src="http://phiky9lnw.bkt.clouddn.com/qiniu_test_domain.png" alt="qiniu_test_domain"><br>后面遇到需要的照片，直接传上来就好了，后面可以写个桌面小工具，把图片拖进去，直接上传到七牛，返回对应外链地址都是可以的，七牛支持这方面的调用</p>
+<h3 id="Git库"><a href="#Git库" class="headerlink" title="Git库"></a>Git库</h3><p>以上基本上就差不多了，可以直接编辑并发布到个人的服务器，但是我有个个人的需求，可能会在多个地方编辑，这就又需要用到Git库了，将本地的文件直接托管到Git库，再在需要的端pull &amp;&amp; push协同编辑即可，大致如下图<br><img src="http://phiky9lnw.bkt.clouddn.com/flow.jpeg" alt="flow"><br>纯手绘，大致意思明白就好</p>
 
-                
-            </div>
-
-            <!-- Comments -->
-            
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     
+                    <!-- Tags Bottom -->
+                    
+                        <div class="tags-container-bottom">
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/随笔/">#随笔</a>
+                        </div>
+                    
+
+                    <!-- Comments -->
+                    
+
 
 
                 </div>
+                <div class="fl w-100 w-30-l center fw3 lh-copy pl4-ns tl black-50">
+                    
+                    <hr class="dn-l mw4 black-50 mt5">
+                    
+                    <!-- Widget 1: About -->
+                    <div class="mt5 mt0-l">
+    <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
+        <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
+            <img src="http://tachyons.io/img/avatar_1.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="Sam">
+        </div>
+        <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
             
         </div>
-    </div>
-</article>
+    </article>
+</div>
 
-    <!-- Footer -->
-    <hr>
-
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
+                    <hr class="dn-l mw4 black-50 mt5">
+                    
+                    <!-- Widget 2: Categories -->
                     
 
-                    
-
-                    
-                        <li>
-                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
-
-                    
-
-                    
-
-                    
-                </ul>
-                <p class="copyright text-muted">&copy; 2018 John Doe<br></p>
-                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+                    <!-- Widget 3: Recent Posts -->
+                    <div class="mt5 tc tl-l">
+    <h3>Recent Posts</h3>
+    
+        <p>
+            <a href="/2018/11/02/BuildMyBlogSystem/">BuildMyBlogSystem</a>
+        </p>
+    
+</div>
+                </div>
             </div>
         </div>
     </div>
-</footer>
+</div>
 
 
-    <!-- After footer scripts -->
-    
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Footer -->
+<div class="bg-1 ph2 ph5-ns pv5">
+        <div class="mv8">
+            <div class="center tc">
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="https://github.com/TestEngineerFish" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="/#" target="_blank">
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </div>
+                
+            </div>
+            <div class="f6 f5-ns center tc white pt5 fw3">
+                @Untitled. All right reserved | Design & Hexo <a class="link dim white" href="http://www.codeblocq.com/">Jonathan Klughertz</a>
+            </div>
+        </div>
+    </div>
 
-<!-- Bootstrap -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-<!-- Gallery -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-
+<!-- After Footer -->
 <!-- Disqus Comments -->
 
 
